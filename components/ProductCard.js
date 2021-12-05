@@ -9,7 +9,7 @@ function ProductCard({id,title, description, image, price, more}) {
             <Image src={image}  layout="responsive" height={150} width={150}/>
          </div>
          <div className="p-3 text-center">
-            <Link href="/product/[id]" as={`/product/${id}`}><a>{title} &rarr;</a></Link>
+            
          </div>
       </div>
    )
