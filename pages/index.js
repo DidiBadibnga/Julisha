@@ -13,14 +13,6 @@ import Banner from '../components/banner'
 import { db, storage } from '../firebase/firebase'
 import { onSnapshot,collection, query, orderBy } from '@firebase/firestore'
 export default function Home() {
-  const [posts, setPosts] = useState([])
-  
-  useEffect(() => {
-    onSnapshot(query(collection(db, 'annonces'), orderBy('desc')), snapshot => {
-      setPosts(snapshot.docs)
-    })
-  }, [db])
-  console.log(posts)
   return (
     <div>
       <Head>
