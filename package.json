@@ -1,0 +1,32 @@
+{
+  "name": "julisha",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.5",
+    "axios": "^0.24.0",
+    "faker": "^5.5.3",
+    "firebase": "^9.5.0",
+    "firebase-admin": "^10.0.0",
+    "firebase-functions": "^3.16.0",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^4.0.1",
+    "react-firebaseui": "^6.0.0",
+    "serve": "^13.0.2",
+    "tailwind-scrollbar-hide": "^1.1.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
