@@ -9,7 +9,7 @@ import axios from 'axios'
 import { useState,useEffect } from 'react'
 import ProductsList from '../components/ProductsList'
 import { server } from '../config'
-import Banner from '../components/banner'
+import Banner from '../components/Banner'
 import { db, storage } from '../firebase/firebase'
 import { onSnapshot,collection, query, orderBy } from '@firebase/firestore'
 export default function Home() {
