@@ -12,7 +12,7 @@ function Nav() {
                 {categories.map((item) => (
                     <a
                     key={item}
-                    className="last:pr-24 cursor-pointer sm:transition sm:duration-100 sm:transform sm:hover:scale-125 hover:text-yellow-600 active:text-red-500"
+                    className="last:pr-24 cursor-pointer sm:transition sm:duration-100 sm:transform sm:hover:scale-125 sm:border-b-2 border-white sm:hover:border-yellow-500"
                 >
                     {item}
                 </a>
